@@ -14,7 +14,7 @@ jobs:
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v3
       - name: Extract zip
-        run: unzip XMBrowser_v2.zip
+        run: unzip XMBrowser_v4.zip
       - name: Build APK
         run: |
           cd XMBrowser
